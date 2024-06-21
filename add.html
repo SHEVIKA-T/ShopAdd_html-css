@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: 100px 250px  250px 100px 250px 250px 100px;
+  gap: 10px;
+  background-color: palegreen;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: darkseagreen;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / 7;
+}
+.item5 {
+  grid-column: 1 / 7;
+}
+.item11 {
+  grid-column: 1 / 7;
+}
+
+.item2 {
+  grid-row: 2 / span 2;
+}
+.item6 {
+  grid-row: 5 / span 2;
+}
+
+.item8 {
+  grid-area: 2 / 2 / span 2 / span 4;
+}
+.item7 {
+  grid-area: 5 / 2 / span 2 / span 4;
+}
+.button {
+  border: none;
+  color: grey;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: palegreen; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: darkcyan;
+  color: white;
+}
+
+.button2 {
+  background-color: palegreen; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button2:hover {
+  background-color:darkcyan ;
+  color: white;
+}
+.det {
+    font-size: 20px;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="item1">GIRLISH STUDIO!!</div>
+  <div class="item2"><img src="s.jpg" alt="saree" width="200" height="200"><br><h2>YoUr Attire is <br>OuR Desire</h2>Open your Wardrobe!!!!</div>
+  <div class="item3">Sale<br><h3>70%</h3>off....</div>  
+  <div class="item4"><br>Save<br><h3>50%</h3></div>
+  <div class="item5"><form action="/action_page.php">
+  <label for="dress"><div class="d">Clothing Store--</div></label>
+  <select name="dress" id="dress">
+    <optgroup label="Women">
+      <option value="kurti">Kurti</option>
+      <option value="saree">Saree</option>
+<option value="tshirt">T-shirt</option>
+<option value="lehenga">Lehenga</option>
+    </optgroup>
+    <optgroup label="Kids">
+      <option value="top">Top</option>
+      <option value="gown">Gown</option>
+    </optgroup>
+  </select>
+  <br><br>
+  
+</form></div>
+  <div class="item6"><img src="s1.jpeg" alt="mua" width="200" height="200"><br><h2>LoOk and fEeL<br>tHe bEsT</h2>Flaunt it !!!!</div>
+  <div class="item7"><br>Ultra HD makeover - Rs.20000/-<br><br>HD makeover - Rs.15000/-<br> <br>Non HD makeover - Rs.12000/-<br><br>Signature makeover - Rs.25000/-<br><br><button class="button button1">Book...</button><br><br></div>
+  <div class="item8"><br>Designer Saree starts from Rs.2000<br><br>Lehenga starts from Rs.3000<br> <br>Kurtis start from Rs.500<br><br><button class="button button1">Shop now</button><br><br>
+<button class="button button2">More....</button></div>  
+  <div class="item9"><br>Book<br><h3>Now!!</h3></div>
+  <div class="item10">Worthy<br><br>The<br><h4>Hurry!!</h4></div>
+  <div class="item11"><div class="det" >Find us !!<br>https://wa.me/9998887776<br>https://www.instagram.com/myurl/mm</div></div>
+  
+  
+</div>
+
+</body>
+</html>
